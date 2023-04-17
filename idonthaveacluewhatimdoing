@@ -1,0 +1,53 @@
+let userName = "";
+//// Input HERE~!
+userName = "";
+userName ? console.log(`Greetings, ${userName}!`) : console.log("Greetings!");
+
+let userQuestion = "";
+//// Input HERE~!
+userQuestion = "Will i get married?";
+userQuestion
+  ? console.log(`Hmmm, "${userQuestion}", you ask? Such trivial questions?`)
+  : console.log("Ask away! Mortal!");
+
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = "";
+
+if (userQuestion) {
+  switch (randomNumber) {
+    case 0:
+      eightBall = "It is certain.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 1:
+      eightBall = "It is decidedly so.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 2:
+      eightBall = "Reply hazy try again.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 3:
+      eightBall = "Cannot predict now.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 4:
+      eightBall = "Do not count on it.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 5:
+      eightBall = "My sources say no.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 6:
+      eightBall = "Outlook not so good.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+    case 7:
+      eightBall = "Signs point to yes.";
+      console.log(`Anyways, I shall answer you. OH, ${eightBall}`);
+      break;
+  }
+} else {
+  console.log("...");
+}
